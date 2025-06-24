@@ -7,8 +7,6 @@ Question: Count the electicity bill by the units using the following schema
 
 */
 
-const units = 500;
-
 function countBill(unit) {
   let cost = 0;
   if (unit > 400) {
@@ -29,4 +27,4 @@ function countBill(unit) {
   return cost;
 }
 
-console.log(countBill(800));
+console.log(countBill(300));
