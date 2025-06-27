@@ -30,7 +30,7 @@ function getNotes(ammount) {
     notes.twenty = Math.floor(ammount / 20);
     ammount = ammount % 20;
   }
-  if (ammount <= 20 && ammount >= 10) {
+  if (ammount <= 0 && ammount >= 10) {
     notes.ten = Math.floor(ammount / 10);
     ammount = ammount % 10;
   }
