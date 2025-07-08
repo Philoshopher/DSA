@@ -16,4 +16,4 @@ function getSum(n) {
   }
 }
 
-getSum();
+getSum(1234); // Pass a valid number as an argument
